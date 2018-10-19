@@ -1,0 +1,128 @@
+header {
+  background: rgb(173, 79, 9);
+  padding: 12px;
+}
+
+header ul {
+  list-style-type: none;
+}
+
+header li {
+  display: inline-block;
+  border: 1px solid #ffffff;
+}
+
+header a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 12px;
+  display: block;
+}
+
+.hero {
+  background: rgb(173, 79, 9) url('Images/renard.jpg') top center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+  .hero h1 {
+  font-family: 'Mali', cursive;
+  font-size: 4em;
+  background: rgba(204, 85, 0, 0.8);
+  padding: 24px;
+}
+
+section{
+  min-height: 90vh;
+  padding: 42px;
+}
+
+.odd {
+  background: rgb(223, 109, 20);
+}
+
+.even {
+  background: rgb(165, 38, 10);
+}
+
+.image-block {
+  max-width: 640px;
+  border: 12px solid #000;
+}
+
+.image-block img {
+  width: 100%;
+  display: block;
+}
+
+
+footer {
+  min-height: 600px;
+  background: #000;
+  color: #ffffff
+}
+
+#section01 h1 {
+  font-family: 'K2D', sans-serif;
+font-size: 3em;
+text-align: center;
+}
+
+#section01 p{
+  font-family: 'Slabo 27px', serif;
+font-size: 2em;
+text-align: left;
+}
+
+#section02 h1 {
+  font-family: 'K2D', sans-serif;
+font-size: 3em;
+text-align: center;
+}
+
+#section02 p{
+  font-family: 'Slabo 27px', serif;
+font-size: 2em;
+text-align: left;
+}
+
+#section03 h1 {
+  font-family: 'K2D', sans-serif;
+font-size: 3em;
+text-align: center;
+}
+
+#section03 p{
+  font-family: 'Slabo 27px', serif;
+font-size: 2em;
+text-align: left;
+}
+
+#section04 h1 {
+  font-family: 'K2D', sans-serif;
+font-size: 3em;
+text-align: center;
+}
+
+#section04 p{
+  font-family: 'Slabo 27px', serif;
+font-size: 2em;
+text-align: left;
+}
+
+#section05 h1 {
+  font-family: 'K2D', sans-serif;
+font-size: 3em;
+text-align: center;
+}
+
+#section05 p{
+  font-family: 'Slabo 27px', serif;
+font-size: 2em;
+text-align: left;
+}
