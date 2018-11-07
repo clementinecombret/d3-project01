@@ -20,7 +20,7 @@ header a {
 }
 
 .hero {
-  background: rgb(173, 79, 9) url('Images/renard.jpg') top center no-repeat;
+  background: rgb(173, 79, 9) url('images/renard.jpg') top center no-repeat;
   background-size: cover;
   background-attachment: fixed;
   color: #ffffff;
@@ -60,11 +60,35 @@ section{
   display: block;
 }
 
+figcaption {
+  font-family: 'Chakra Petch', sans-serif;
+}
+
 
 footer {
-  min-height: 600px;
-  background: #000;
+  background: #AE8964;
   color: #ffffff
+}
+
+footer li {
+list-style-type:none;
+}
+
+
+section {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.even {
+  flex-direction: row-reverse;
+}
+
+.illustration,
+.content {
+  flex-basis: 480px;
 }
 
 #section01 h1 {
