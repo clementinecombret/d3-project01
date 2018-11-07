@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Slabo+27px');
 @import url('https://fonts.googleapis.com/css?family=Lora');
 @import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css?family=Chakra+Petch');
 
 html{
   font-size: 1em;
@@ -30,6 +31,13 @@ h1 {
   font-size: 3.998em;
   text-align: center;
 }
+
+footer {
+  padding: 1.414em 3em 0.5em;
+  font-family: 'Nunito', sans-serif;
+  min-height: 200px
+}
+
 
 h2 {font-size: 2.827em;}
 
